@@ -2,11 +2,9 @@
     "id": "ca.desrt.dconf-editor",
     "base-version": "master",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.26",
+    "runtime-version": "3.28",
     "sdk": "org.gnome.Sdk",
     "command": "dconf-editor",
-    "rename-icon": "dconf-editor",
-    "copy-icon": true,
     "finish-args": [
         "--share=ipc", "--socket=x11",
         "--socket=wayland",
@@ -18,11 +16,12 @@
     "modules": [
     {
         "name": "dconf-editor",
+        "buildsystem": "meson",
         "sources": [
             {
                 "type": "archive",
-                "url": "http://ftp.gnome.org/pub/GNOME/sources/dconf-editor/3.26/dconf-editor-3.26.2.tar.xz",
-                "sha256": "28b453fe49c49d7dfaf07c85c01d7495913f93ab64a0b223c117eb17d1cb8ad1"
+                "url": "http://ftp.gnome.org/pub/GNOME/sources/dconf-editor/3.28/dconf-editor-3.28.0.tar.xz",
+                "sha256": "455b53d827820efd28a176ee52e13eda5cda8cdf4e31e0145cfdd69931bf0c5a"
             }
         ]
     }
