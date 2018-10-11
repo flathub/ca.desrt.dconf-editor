@@ -1,12 +1,12 @@
 {
     "id": "ca.desrt.dconf-editor",
-    "base-version": "master",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.28",
+    "runtime-version": "3.30",
     "sdk": "org.gnome.Sdk",
     "command": "dconf-editor",
     "finish-args": [
-        "--share=ipc", "--socket=x11",
+        "--share=ipc",
+        "--socket=x11",
         "--socket=wayland",
         "--talk-name=ca.desrt.dconf",
         "--filesystem=xdg-run/dconf",
@@ -20,8 +20,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "http://ftp.gnome.org/pub/GNOME/sources/dconf-editor/3.28/dconf-editor-3.28.0.tar.xz",
-                "sha256": "455b53d827820efd28a176ee52e13eda5cda8cdf4e31e0145cfdd69931bf0c5a"
+                "url": "https://ftp.acc.umu.se/pub/GNOME/sources/dconf-editor/3.30/dconf-editor-3.30.2.tar.xz",
+                "sha256": "2a9a2b0b9326906d7a5c63879f3d940b65b409e11d80af253e1a087bb519c719"
             }
         ]
     }
