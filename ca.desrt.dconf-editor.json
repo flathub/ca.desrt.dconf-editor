@@ -20,7 +20,7 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://ftp.acc.umu.se/pub/GNOME/sources/dconf-editor/3.30/dconf-editor-3.30.2.tar.xz",
+                "url": "https://download.gnome.org/sources/dconf-editor/3.30/dconf-editor-3.30.2.tar.xz",
                 "sha256": "2a9a2b0b9326906d7a5c63879f3d940b65b409e11d80af253e1a087bb519c719"
             }
         ]
