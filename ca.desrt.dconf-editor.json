@@ -1,7 +1,7 @@
 {
     "id": "ca.desrt.dconf-editor",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.30",
+    "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
     "command": "dconf-editor",
     "finish-args": [
@@ -11,7 +11,8 @@
         "--talk-name=ca.desrt.dconf",
         "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
+        "--talk-name=org.gnome.SettingsDaemon.Color"
     ],
     "modules": [
     {
@@ -20,8 +21,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.gnome.org/sources/dconf-editor/3.30/dconf-editor-3.30.2.tar.xz",
-                "sha256": "2a9a2b0b9326906d7a5c63879f3d940b65b409e11d80af253e1a087bb519c719"
+                "url": "https://download.gnome.org/sources/dconf-editor/3.32/dconf-editor-3.32.0.tar.xz",
+                "sha256": "f19d1332ac27e23ef3dc2ed07ba4e4646d9d7f05e2e78748aa525a1320adbaba"
             }
         ]
     }
