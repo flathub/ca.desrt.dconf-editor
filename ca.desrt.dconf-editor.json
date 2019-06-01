@@ -3,32 +3,46 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
-    "command": "dconf-editor",
+    "command": "start-dconf-editor",
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
         "--talk-name=ca.desrt.dconf",
         "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro",
+        "--filesystem=host:ro",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
+        "--talk-name=org.freedesktop.Flatpak",
         "--talk-name=org.gnome.SettingsDaemon.Color"
     ],
     "modules": [
-    {
-        "name": "dconf-editor",
-        "buildsystem": "meson",
-        "sources": [
-            {
-                "type": "archive",
-                "url": "https://download.gnome.org/sources/dconf-editor/3.32/dconf-editor-3.32.0.tar.xz",
-                "sha256": "f19d1332ac27e23ef3dc2ed07ba4e4646d9d7f05e2e78748aa525a1320adbaba"
-            },
-            {
-                "type": "patch",
-                "path": "0001-Add-some-more-appdata-fields-for-Flatpak.patch"
-            }
-        ]
-    }
+        {
+            "name": "dconf-editor",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/dconf-editor/3.32/dconf-editor-3.32.0.tar.xz",
+                    "sha256": "f19d1332ac27e23ef3dc2ed07ba4e4646d9d7f05e2e78748aa525a1320adbaba"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Add-some-more-appdata-fields-for-Flatpak.patch"
+                }
+            ]
+        },
+        {
+            "name": "scripts",
+            "buildsystem": "simple",
+            "build-commands": [
+                "install -Dm 755 start-dconf-editor.sh /app/bin/start-dconf-editor"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "start-dconf-editor.sh"
+                }
+            ]
+        }
     ]
 }
