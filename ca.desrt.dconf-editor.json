@@ -23,6 +23,10 @@
                 "type": "archive",
                 "url": "https://download.gnome.org/sources/dconf-editor/3.32/dconf-editor-3.32.0.tar.xz",
                 "sha256": "f19d1332ac27e23ef3dc2ed07ba4e4646d9d7f05e2e78748aa525a1320adbaba"
+            },
+            {
+                "type": "patch",
+                "path": "0001-Add-some-more-appdata-fields-for-Flatpak.patch"
             }
         ]
     }
