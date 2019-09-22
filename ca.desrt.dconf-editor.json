@@ -1,7 +1,7 @@
 {
     "id": "ca.desrt.dconf-editor",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "start-dconf-editor",
     "finish-args": [
@@ -22,12 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/dconf-editor/3.32/dconf-editor-3.32.0.tar.xz",
-                    "sha256": "f19d1332ac27e23ef3dc2ed07ba4e4646d9d7f05e2e78748aa525a1320adbaba"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Add-some-more-appdata-fields-for-Flatpak.patch"
+                    "url": "https://download.gnome.org/sources/dconf-editor/3.34/dconf-editor-3.34.1.tar.xz",
+                    "sha256": "32ad3e899840e0b17d36a1c4dab60bfb1eedfcf4e46f3ae428076132f37ff335"
                 }
             ]
         },
