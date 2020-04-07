@@ -1,7 +1,7 @@
 {
     "id": "ca.desrt.dconf-editor",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "start-dconf-editor",
     "finish-args": [
@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/dconf-editor/3.34/dconf-editor-3.34.3.tar.xz",
-                    "sha256": "9b491a6a9f3eecf6960b33d3992112d6adbc535fb04af50bcb6ab9a29b64028b"
+                    "url": "https://download.gnome.org/sources/dconf-editor/3.36/dconf-editor-3.36.0.tar.xz",
+                    "sha256": "72eed05670917f8e43200e40ccc6be60211f0a87b017534eac1fd6c7173a0693"
                 }
             ]
         },
