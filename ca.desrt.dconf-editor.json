@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/dconf-editor/3.36/dconf-editor-3.36.0.tar.xz",
-                    "sha256": "72eed05670917f8e43200e40ccc6be60211f0a87b017534eac1fd6c7173a0693"
+                    "url": "https://download.gnome.org/sources/dconf-editor/3.38/dconf-editor-3.38.3.tar.xz",
+                    "sha256": "571af4c7dad4f049b53e6cd728b79addf08c27ddab6bc57b396d211866ee79e3"
                 }
             ]
         },
