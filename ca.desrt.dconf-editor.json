@@ -6,7 +6,7 @@
     "command": "start-dconf-editor",
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--talk-name=ca.desrt.dconf",
         "--filesystem=xdg-run/dconf",
