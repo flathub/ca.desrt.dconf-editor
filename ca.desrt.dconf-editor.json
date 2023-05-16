@@ -58,7 +58,8 @@
                 }
             ],
             "post-install": [
-                "sed -i 's,^Exec=dconf-editor$,Exec=start-dconf-editor,g' /app/share/applications/ca.desrt.dconf-editor.desktop"
+                "sed -i 's,^Exec=dconf-editor$,Exec=start-dconf-editor,g' /app/share/applications/ca.desrt.dconf-editor.desktop",
+                "sed -i 's,^Exec=/app/bin/dconf-editor,Exec=/app/bin/start-dconf-editor,g' /app/share/dbus-1/services/ca.desrt.dconf-editor.service"
             ]
         },
         {
