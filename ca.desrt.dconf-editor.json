@@ -20,6 +20,7 @@
             "name": "dconf",
             "buildsystem": "meson",
             "config-opts": [
+                "-Dsystemduserunitdir=/app/lib/systemd/user/",
                 "-Dbash_completion=false",
                 "-Dman=false"
             ],
