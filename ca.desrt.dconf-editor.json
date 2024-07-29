@@ -59,6 +59,10 @@
                         "name": "dconf-editor",
                         "is-important": true
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.patch"
                 }
             ],
             "post-install": [
