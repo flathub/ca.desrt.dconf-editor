@@ -1,7 +1,7 @@
 {
     "id": "ca.desrt.dconf-editor",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "start-dconf-editor",
     "finish-args": [
@@ -33,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/dconf/0.40/dconf-0.40.0.tar.xz",
-                    "sha256": "cf7f22a4c9200421d8d3325c5c1b8b93a36843650c9f95d6451e20f0bcb24533",
+                    "url": "https://download.gnome.org/sources/dconf/0.49/dconf-0.49.0.tar.xz",
+                    "sha256": "16a47e49a58156dbb96578e1708325299e4c19eea9be128d5bd12fd0963d6c36",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "dconf"
@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/dconf-editor/45/dconf-editor-45.0.1.tar.xz",
-                    "sha256": "1180297678eedae6217cc514a2638c187d2f1d1ef2720cb9079b740c429941dd",
+                    "url": "https://download.gnome.org/sources/dconf-editor/49/dconf-editor-49.0.tar.xz",
+                    "sha256": "90a8ccfadf51dff31e0028324fb9a358b2d26c5ae861a71c7dbf9f4dd9bdd399",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "dconf-editor",
